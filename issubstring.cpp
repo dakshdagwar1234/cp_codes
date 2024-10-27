@@ -3,7 +3,7 @@ bool issubstring(string a,string b){
     int m=b.length();
     bool flag=false;
     for(int i=0;i<n;i++){
-        int j=0;
+        int j=0;//i am great
         int c=i;
         while(j<m && c<n){
             if(a[c]==b[j]){
@@ -11,7 +11,7 @@ bool issubstring(string a,string b){
                 j++;
             }
             else{
-                break;
+                break;//yo
             }
         }
         if(j==m){
